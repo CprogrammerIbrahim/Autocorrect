@@ -20,3 +20,11 @@ This project depends on the packages: `Levenshtein`, `wordfreq`. Which can be in
 ```
 pip install python-Levenshtein wordfreq
 ```
+
+You can install the project with the following commands:
+
+```
+git clone https://github.com/CprogrammerIbrahim/Autocorrect.git
+cd Autocorrect
+sudo python setup.py install 
+```
