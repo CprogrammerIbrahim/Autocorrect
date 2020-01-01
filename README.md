@@ -18,5 +18,5 @@ Autocorrect("abcense") #This word is misspelled!
 This project depends on the packages: `Levenshtein`, `wordfreq`. Which can be installed as follows:
 
 ```
-pip install Levenshtein wordfreq
+pip install python-Levenshtein wordfreq
 ```
