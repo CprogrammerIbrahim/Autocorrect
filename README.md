@@ -5,14 +5,15 @@ This function calculates the distances between the given word and dictionary wor
 
 ```python
 from Autocorrect import Autocorrect
+Aut = Autocorrect('en')
 
-Autocorrect("solitary")
+Aut.propose("solitary")
 #['military', 'solitary', 'sanitary']
 
-Autocorrect("love")
+Aut.propose("love")
 #['have', 'one', 'like']
 
-Autocorrect("abcense") #This word is misspelled! 
+Aut.propose("abcense") #This word is misspelled! 
 #['absence', 'license', 'incense']
 ```
 This project depends on the packages: `Levenshtein`, `wordfreq`. Which can be installed as follows:
