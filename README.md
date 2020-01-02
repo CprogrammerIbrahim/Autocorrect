@@ -19,7 +19,7 @@ Aut.propose("abcense") #This word is misspelled!
 This project depends on the packages: `Levenshtein`, `wordfreq`. Which can be installed as follows:
 
 ```
-pip install python-Levenshtein wordfreq
+pip install -r requirements.txt
 ```
 
 You can install the project with the following commands:
